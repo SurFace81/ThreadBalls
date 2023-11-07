@@ -6,12 +6,11 @@ namespace ThreadBalls
 {
     public partial class Form1 : Form
     {
-        // Constants and variables declaration
+        // Variables declaration
         private const int ballsCntr = 10;
         private Ball[] balls = new Ball[ballsCntr];
         private Thread[] threads = new Thread[ballsCntr];
 
-        // Constructor for the main form
         public Form1()
         {
             InitializeComponent();
